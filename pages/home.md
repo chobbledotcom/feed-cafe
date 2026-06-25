@@ -47,7 +47,7 @@ blocks:
     content: |
       ## Warm, simple and not too fussy
 
-      The cafe is clean, bright and easy to sit in. It feels like somewhere you can bring children without everything looking like a soft play warehouse.
+      The cafe is clean, bright and easy to sit in — a good place to land after swimming or to stop into for lunch without any particular plan.
     figure_src: /images/feed-cafe-counter.jpg
     figure_alt: Feed Cafe counter with green panelling, timber slats and bunting
     button:
@@ -88,7 +88,7 @@ blocks:
         description: Hot food in a takeaway bowl, with enough colour and sauce to feel like a proper lunch.
       - image: /images/feed-cafe-counter.jpg
         name: The Counter
-        description: A clean, bright space that feels useful rather than staged.
+        description: Clean and bright, with an easy feel whether you are stopping in after a swim or just coming in for coffee.
 
   - type: items
     collection: menus
