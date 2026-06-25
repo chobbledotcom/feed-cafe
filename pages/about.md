@@ -44,7 +44,7 @@ blocks:
     content: |
       ## A Cafe That Still Feels Like A Cafe
 
-      The interior has a lot of useful warmth in it: green panelling, timber slats, wood tables, simple white tiling, hanging bulbs and paper bunting. There is a bit of family practicality too, with high chairs, a visible counter and space around the tables.
+      The room is clean, bright and easy to settle into. There is a visible counter, high chairs if you need them, and enough space around the tables that it works for families as well as anyone stopping in for coffee or lunch.
 
       That gives the website its theme: cream background, dark green text and buttons, warm wood tones, and a small coral accent instead of anything glossy or over-designed.
     figure_src: /images/feed-cafe-counter.jpg
@@ -71,7 +71,7 @@ blocks:
     items:
       - image: /images/feed-cafe-counter.jpg
         name: Cafe Interior
-        description: Green cabinetry, pale walls, wood, bunting and a visible counter.
+        description: A clean, bright room with a visible counter and enough space to feel relaxed.
       - image: /images/feed-menu-board.jpg
         name: Menu Board
         description: Cream board, black lettering, Feed branding and the full food and drinks list.

@@ -47,7 +47,7 @@ blocks:
     content: |
       ## Warm, simple and not too fussy
 
-      The cafe has deep green panelling, pale walls, timber tables, slatted wood around the counter, hanging bulbs and a bit of colour from the bunting. It feels like somewhere you can bring children without everything looking like a soft play warehouse.
+      The cafe is clean, bright and easy to sit in. It feels like somewhere you can bring children without everything looking like a soft play warehouse.
     figure_src: /images/feed-cafe-counter.jpg
     figure_alt: Feed Cafe counter with green panelling, timber slats and bunting
     button:
@@ -88,7 +88,7 @@ blocks:
         description: Hot food in a takeaway bowl, with enough colour and sauce to feel like a proper lunch.
       - image: /images/feed-cafe-counter.jpg
         name: The Counter
-        description: Green signage, timber slats, bunting, high chairs and a room that feels useful rather than staged.
+        description: A clean, bright space that feels useful rather than staged.
 
   - type: items
     collection: menus
