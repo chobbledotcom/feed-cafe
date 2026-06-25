@@ -1,2 +1,163 @@
 @charset "utf-8";
-@use "sass:color";
+
+/* body_classes: feed-cafe */
+
+@font-face {
+  font-family: "Finlandica Headline";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("/assets/fonts/finlandica-headline-latin-500-normal.woff2") format("woff2");
+}
+
+:root {
+  --color-bg: #f7f1e6;
+  --body-background: #f7f1e6;
+  --body-background-alt: #efe5d7;
+  --color-card-bg: #fffdf8;
+  --color-text: #162927;
+  --color-text-muted: #677169;
+  --color-link: #244c3b;
+  --color-link-hover: #143328;
+  --color-tint: #dce8df;
+  --color-secondary: #d8785d;
+  --color-accent: #c9a778;
+  --color-hover-bg: rgb(36 76 59 / 10%);
+  --color-contrast-text: #fffaf0;
+  --color-contrast-text-muted: rgb(255 250 240 / 78%);
+  --color-dark-bg: #183027;
+  --color-dark-text: #fffaf0;
+  --color-dark-text-muted: rgb(255 250 240 / 72%);
+  --color-dark-card-bg: #203d32;
+  --border: 1px solid #d7c5a7;
+  --border-radius: 6px;
+  --box-shadow: 0 14px 34px rgb(22 41 39 / 14%);
+  --link-decoration: underline;
+  --link-decoration-hover: none;
+  --link-decoration-style: solid;
+  --font-family-body:
+    "Aptos", "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-family-heading:
+    "Finlandica Headline", "Bahnschrift", "DIN Condensed", "Arial Narrow", "Aptos", sans-serif;
+}
+
+.design-system {
+  background: var(--body-background);
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-weight: 500;
+    letter-spacing: 0;
+    text-transform: uppercase;
+  }
+
+  nav {
+    border-bottom: 1px solid rgb(36 76 59 / 14%);
+    background: rgb(255 253 248 / 92%);
+    backdrop-filter: blur(12px);
+  }
+
+  .image-background.tinted::before {
+    background:
+      linear-gradient(90deg, rgb(32 27 22 / 76%) 0%, rgb(32 27 22 / 38%) 58%),
+      linear-gradient(180deg, rgb(32 27 22 / 12%) 0%, rgb(32 27 22 / 58%) 100%);
+  }
+
+  .menu-items li {
+    border-bottom-color: rgb(36 76 59 / 16%);
+  }
+
+  .menu-items .price {
+    color: var(--color-secondary);
+  }
+
+  .feature,
+  .item,
+  .review {
+    border: 1px solid rgb(36 76 59 / 12%);
+  }
+
+  footer {
+    position: relative;
+    overflow: hidden;
+    border-top: 1px solid rgb(247 241 230 / 18%);
+    background:
+      linear-gradient(180deg, rgb(22 41 39 / 92%), rgb(11 25 22 / 96%)),
+      url("/assets/wood.png") center / 560px auto repeat;
+    color: var(--color-dark-text);
+
+    a {
+      color: #fffaf0;
+      text-decoration-color: rgb(255 250 240 / 58%);
+
+      &:hover {
+        color: #fff;
+        text-decoration: none;
+      }
+    }
+
+    .socials {
+      margin: 0;
+      padding-block: 1.5rem 0;
+    }
+  }
+
+  .footer-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1.35fr) minmax(12rem, 0.8fr) minmax(14rem, 1fr);
+    gap: clamp(1.5rem, 4vw, 3rem);
+    width: min(1120px, calc(100% - 2rem));
+    margin: 0 auto;
+    padding: clamp(2rem, 6vw, 4rem) 0 1.5rem;
+    text-align: left;
+
+    @media (width <= 820px) {
+      grid-template-columns: 1fr;
+    }
+
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    li {
+      margin-block: 0.45rem;
+      color: rgb(255 250 240 / 78%);
+    }
+  }
+
+  .footer-logo {
+    width: min(150px, 52vw);
+    height: auto;
+    margin-bottom: 1rem;
+    filter: drop-shadow(0 8px 18px rgb(0 0 0 / 28%));
+  }
+
+  .footer-brand p {
+    max-width: 34rem;
+    margin: 0;
+    color: rgb(255 250 240 / 78%);
+  }
+
+  .footer-heading {
+    margin: 0 0 0.85rem;
+    color: #fffaf0;
+    font-family: var(--font-family-heading);
+    font-size: clamp(1.15rem, 2vw, 1.4rem);
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+
+  .footer-legal {
+    width: min(1120px, calc(100% - 2rem));
+    margin: 0 auto;
+    padding: 1.25rem 0 2rem;
+    border-top: 1px solid rgb(255 250 240 / 14%);
+    color: rgb(255 250 240 / 62%);
+    font-size: 0.9rem;
+    text-align: center;
+  }
+}

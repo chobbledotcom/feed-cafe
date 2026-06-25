@@ -1,14 +1,16 @@
 {
-	"name": "",
-	"url": "https://example.chobble.com",
+	"name": "Feed Cafe & Deli",
+	"url": "https://feed-cafe-st-ives.example.com",
 	"socials": {
-		"Facebook": null,
-		"Instagram": "https://www.instagram.com/chobbledotcom/",
+		"Facebook": "https://www.facebook.com/FEEDANDFED/",
+		"Instagram": "https://www.instagram.com/feed.stives/",
 		"TikTok": null,
-		"Google": null,
+		"Google": "https://maps.app.goo.gl/2G4XN9DdBrpEHeuH8",
 		"WhatsApp": null,
 		"RSS": "/feed.xml"
 	},
+	"opening_times": [],
+	"map_embed_src": null,
 	"sticky_mobile_nav": true,
 	"horizontal_nav": true,
 	"template_repo_url": "https://git.chobble.com/chobble/chobble-client"

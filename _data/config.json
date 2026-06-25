@@ -1,0 +1,14 @@
+{
+	"cart_mode": null,
+	"currency": "GBP",
+	"enable_theme_switcher": false,
+	"has_products_filter": false,
+	"horizontal_nav": true,
+	"placeholder_images": true,
+	"product_mode": null,
+	"search_collections": ["pages", "menus", "menu-items"],
+	"show_breadcrumbs": true,
+	"sticky_mobile_nav": true,
+	"template_repo_url": "https://git.chobble.com/chobble/chobble-client",
+	"use_visual_editor": true
+}
