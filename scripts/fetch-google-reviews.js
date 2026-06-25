@@ -1,117 +1,118 @@
 #!/usr/bin/env bun
-
+import { existsSync, readdirSync } from "node:fs";
 import { join } from "node:path";
-import { exists, fs, loadEnv, path, readJson, write } from "./utils.js";
+import { exists, fs, path, write } from "./utils.js";
 
-await loadEnv();
+const REPO_OWNER = "chobbledotcom";
+const REPO_NAME = "google-reviews-iframe";
+const DATA_PATH = "data/feed-cafe";
+const REVIEWS_DIR = path("reviews");
+const TARBALL_URL = `https://github.com/${REPO_OWNER}/${REPO_NAME}/archive/main.tar.gz`;
+const TEMP_DIR = join(import.meta.dir, "..", ".tmp-reviews");
 
-const CONFIG = {
-  siteConfig: path("_data", "site.json"),
-  reviewsDir: path("reviews"),
-  actorId: "nwua9Gu5YrADL7ZDj",
-  maxReviews: 9999,
+const caBundle = "/root/.ccr/ca-bundle.crt";
+
+const curlDownload = (url, dest) => {
+  const args = ["curl", "-sS", "-L", "-o", dest, url];
+  if (existsSync(caBundle)) args.splice(1, 0, "--cacert", caBundle);
+  const proc = Bun.spawnSync(args, { stdout: "pipe", stderr: "pipe" });
+  if (proc.exitCode !== 0) {
+    const err = new TextDecoder().decode(proc.stderr);
+    throw new Error(`Download failed: ${err}`);
+  }
 };
 
-const formatFilename = (name, date) => {
-  const safeName = name
-    .toLowerCase()
-    .replace(/[^a-z0-9\s]/g, "")
-    .replace(/\s+/g, "-")
-    .substring(0, 30);
-  return `${safeName}-google-${date.toISOString().split("T")[0]}.md`;
-};
-
-const fetchReviews = async (placeId, opts = {}) => {
-  const url = `https://api.apify.com/v2/acts/${CONFIG.actorId}/run-sync-get-dataset-items?token=${process.env.APIFY_API_TOKEN}`;
-
-  console.log("Fetching all available reviews...");
-
-  const res = await fetch(url, {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({
-      startUrls: [
-        { url: `https://www.google.com/maps/place/?q=place_id:${placeId}` },
-      ],
-      maxReviews: opts.maxReviews || CONFIG.maxReviews,
-      reviewsSort: opts.sort || "newest",
-      language: opts.language || "en",
-    }),
+const extractTarball = (tarPath, dest) => {
+  fs.mkdir(dest);
+  const proc = Bun.spawnSync(["tar", "-xzf", tarPath, "-C", dest], {
+    stdout: "pipe",
+    stderr: "pipe",
   });
-
-  if (!res.ok) throw new Error(`HTTP ${res.status}: ${await res.text()}`);
-
-  const results = await res.json();
-  if (!Array.isArray(results)) throw new Error("Invalid API response format");
-
-  return results
-    .flatMap((item) => item.reviews || [])
-    .map((r) => ({
-      content: r.text || r.reviewText,
-      date: new Date(r.publishedAtDate),
-      rating: r.stars,
-      author: r.name || r.authorName,
-      authorUrl: r.reviewerUrl || r.authorUrl,
-    }))
-    .filter((r) => r.content?.length > 5);
+  if (proc.exitCode !== 0) {
+    const err = new TextDecoder().decode(proc.stderr);
+    throw new Error(`Extract failed: ${err}`);
+  }
 };
 
-const saveReview = async (review, dir) => {
-  const filename = formatFilename(review.author, review.date);
-  const filepath = join(dir, filename);
+const formatFilename = (review) => {
+  const date = new Date(review.date).toISOString().split("T")[0];
+  const safeId = review.userId.replace(/[^a-z0-9]/gi, "-").slice(0, 40);
+  return `${review.source || "review"}-${safeId}-${date}.md`;
+};
+
+const buildFrontmatter = (review) =>
+  [
+    "---",
+    `name: ${review.author}`,
+    review.authorUrl ? `url: ${review.authorUrl}` : null,
+    `rating: ${review.rating}`,
+    `date: ${new Date(review.date).toISOString().split("T")[0]}`,
+    review.source ? `source: ${review.source}` : null,
+    "---",
+  ]
+    .filter(Boolean)
+    .join("\n");
+
+const saveReview = async (review) => {
+  if (!review.content || review.content.trim().length < 5) return false;
+
+  const filename = formatFilename(review);
+  const filepath = join(REVIEWS_DIR, filename);
 
   if (await exists(filepath)) return false;
 
-  await write(
-    filepath,
-    `---
-name: ${review.author}
-url: ${review.authorUrl}
-rating: ${review.rating}
----
-
-${review.content}
-`,
-  );
-
-  console.log(`${filename} (${review.rating}/5 stars)`);
+  await write(filepath, `${buildFrontmatter(review)}\n\n${review.content.trim()}\n`);
   return true;
 };
 
+const cleanup = () => {
+  if (existsSync(TEMP_DIR)) fs.rm(TEMP_DIR);
+  const tarPath = join(import.meta.dir, "..", ".reviews-download.tar.gz");
+  if (existsSync(tarPath)) fs.rm(tarPath);
+};
+
 const main = async () => {
-  if (!process.env.APIFY_API_TOKEN) {
-    console.error("Error: APIFY_API_TOKEN required in .env file");
-    console.error("Get token: https://console.apify.com/account/integrations");
-    process.exit(1);
+  fs.mkdir(REVIEWS_DIR);
+
+  const tarPath = join(import.meta.dir, "..", ".reviews-download.tar.gz");
+
+  console.log("Downloading review data from GitHub...");
+  curlDownload(TARBALL_URL, tarPath);
+
+  console.log("Extracting...");
+  extractTarball(tarPath, TEMP_DIR);
+
+  const extractedDirs = readdirSync(TEMP_DIR).filter((d) =>
+    d.startsWith(`${REPO_NAME}-`),
+  );
+  if (extractedDirs.length === 0) throw new Error("Extracted directory not found");
+
+  const dataDir = join(TEMP_DIR, extractedDirs[0], DATA_PATH);
+  if (!existsSync(dataDir)) throw new Error(`Data path not found: ${dataDir}`);
+
+  const jsonFiles = readdirSync(dataDir).filter((f) => f.endsWith(".json"));
+  console.log(`Found ${jsonFiles.length} review files`);
+
+  let saved = 0;
+  let skipped = 0;
+
+  for (const filename of jsonFiles) {
+    const content = await Bun.file(join(dataDir, filename)).text();
+    const review = JSON.parse(content);
+    const result = await saveReview(review);
+    if (result) saved++;
+    else skipped++;
   }
 
-  if (!(await exists(CONFIG.siteConfig))) {
-    console.error(`Error: ${CONFIG.siteConfig} not found`);
-    process.exit(1);
-  }
-
-  const siteConfig = await readJson(CONFIG.siteConfig);
-  if (!siteConfig.google_place_id) {
-    console.error("Error: google_place_id missing from site.json");
-    process.exit(1);
-  }
-
-  fs.mkdir(CONFIG.reviewsDir);
-
-  const reviews = await fetchReviews(siteConfig.google_place_id);
-  console.log(`Found ${reviews.length} reviews`);
-
-  const saved = (
-    await Promise.all(reviews.map((r) => saveReview(r, CONFIG.reviewsDir)))
-  ).filter(Boolean).length;
-
+  cleanup();
   console.log(
-    `\nSaved ${saved} new reviews (${reviews.length - saved} already existed)`,
+    `\nSaved ${saved} new reviews (${skipped} already existed or skipped)`,
   );
 };
 
 if (import.meta.main) {
   main().catch((err) => {
+    cleanup();
     console.error("Error:", err.message);
     process.exit(1);
   });

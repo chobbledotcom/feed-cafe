@@ -4,7 +4,7 @@ name: Footer Content
 
 <div class="footer-grid">
   <div class="footer-brand">
-    <img src="/images/logo.png" alt="Feed Cafe &amp; Deli" class="footer-logo" />
+    <img src="/images/logo-transparent.png" alt="Feed Cafe &amp; Deli" class="footer-logo" />
     <p>
       Feed Cafe &amp; Deli in St Ives, serving breakfast, coffee, hot food,
       cakes, shakes and Stay &amp; Play soft play enquiries.
@@ -25,7 +25,7 @@ name: Footer Content
     <ul>
       <li>Trenwith the Burrows Leisure Centre, Saint Ives TR26 1HB</li>
       <li><a href="https://maps.app.goo.gl/2G4XN9DdBrpEHeuH8">Find Feed on Google Maps</a></li>
-      <li><em>Opening hours to confirm.</em></li>
+      <li>Breakfast until 11.30am &middot; Lunch until close</li>
       <li><a href="tel:+447725886179">07725 886179</a></li>
       <li><a href="https://www.instagram.com/feed.stives/">@feed.stives on Instagram</a></li>
     </ul>

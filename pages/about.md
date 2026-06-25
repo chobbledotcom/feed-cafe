@@ -50,23 +50,17 @@ blocks:
     figure_src: /images/feed-cafe-counter.jpg
     figure_alt: Feed Cafe seating and counter area with bunting and green signage
 
-  - type: split-icon-links
-    subtitle: What the site is picking up from the cafe
+  - type: split-image
+    reverse: true
+    subtitle: The Feed mascot
     content: |
-      ## The Visual Direction
+      ## Good Food. Good Coffee. Good Company.
 
-      The site should look like Feed rather than a generic cafe template. The strongest cues are the green panels, the cream menu board, natural wood, black line artwork and a warm family cafe feel.
+      The Feed mascot is a round, round-faced character with a coffee cup — a deliberately warm, a bit retro and not trying to be corporate or generic. The same character appears on the cups, the board and the site.
 
-      *Placeholder: add any brand notes from James, including whether the mascot, "Good vibes only" line or "Good food, good coffee, good company" line should be used more prominently.*
-    figure_items:
-      - icon: "mdi:palette-outline"
-        text: Cream, dark green, warm wood and coral accent
-      - icon: "mdi:lightbulb-on-outline"
-        text: Hanging bulbs and a warmer indoor feel
-      - icon: "mdi:food-outline"
-        text: Food photos that show real plates, cups and counter service
-      - icon: "mdi:human-male-child"
-        text: Family-friendly without turning the whole site into soft play branding
+      Feed has been doing this since 2020 in St Ives. The logo and the food are both originals.
+    figure_src: /images/logo-transparent.png
+    figure_alt: Feed Cafe & Deli logo — the retro mascot character holding a coffee cup
 
   - type: image-cards
     image_aspect_ratio: "4/3"
@@ -87,9 +81,9 @@ blocks:
 
   - type: cta
     content: |
-      ## Questions For James
+      ## Come In And Say Hello
 
-      *Opening hours, exact booking rules and any party details still need confirming before they go live.*
+      Feed is at Trenwith the Burrows Leisure Centre in St Ives. Breakfast until 11.30am, then lunch until close. Call 07725 886179 or find us on Instagram [@feed.stives](https://www.instagram.com/feed.stives/).
     button:
       text: Contact Feed
       href: /contact/

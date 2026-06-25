@@ -1,4 +1,4 @@
-name: Fetch Google Reviews
+name: Fetch Reviews
 
 on:
   schedule:
@@ -21,9 +21,7 @@ jobs:
       - name: Setup Bun
         uses: oven-sh/setup-bun@v2
 
-      - name: Fetch Google Reviews
-        env:
-          APIFY_API_TOKEN: ${{ secrets.APIFY_API_TOKEN }}
+      - name: Fetch Reviews from GitHub
         run: |
           bun scripts/fetch-google-reviews.js
 
@@ -42,5 +40,5 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add reviews/
-          git commit -m "Auto-update: Fetch new Google reviews"
+          git commit -m "Auto-update: Fetch new reviews"
           git push

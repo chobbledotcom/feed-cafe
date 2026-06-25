@@ -1,0 +1,9 @@
+---
+name: Gary Holbrook
+url: https://www.facebook.com/gary.holbrook.129/posts/pfbid02VJnHNJ52PR7cNAezXJHAmxSvjAg8r43FKoM5ozxjMDqtQYuFV8Juz4cdyiZuCapZl
+rating: 5
+date: 2020-08-07
+source: facebook
+---
+
+Took our Grandsons down for breakfast this morning. 3 x Feeder in Bagel and Sausage Bap plus coffees and hot chocolate. All absolutely amazing, Shauna and Fay behind the counter very pleasant and helpful. We will be back next week ⭐️⭐️⭐️⭐️⭐️

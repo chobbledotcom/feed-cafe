@@ -40,7 +40,7 @@ blocks:
         description: Smash burgers, loaded fries, wraps, sandwiches and power bowls, with kids options on the board too.
       - icon: "mdi:toy-brick-outline"
         name: Stay & Play Soft Play
-        description: "*Session times, prices and booking details to confirm.*"
+        description: Soft play sessions inside the cafe at Trenwith the Burrows Leisure Centre. Contact us for session details and availability.
 
   - type: split-image
     subtitle: Inside the cafe
@@ -57,18 +57,16 @@ blocks:
 
   - type: split-callout
     reverse: true
-    subtitle: What still needs pinning down
+    subtitle: Before you set off
     content: |
-      ## Useful Before People Set Off
+      ## Easy To Find, Worth The Trip
 
-      The food board is in place, but the practical details around visits still need the last pass from James. This section can become a simple "before you come in" panel once the public information is confirmed.
+      Feed is inside Trenwith the Burrows Leisure Centre in St Ives. Breakfast runs until 11.30am, then the board switches to lunch. Parking is at the leisure centre car park.
 
-      Feed is at Trenwith the Burrows Leisure Centre, Saint Ives TR26 1HB.
-
-      *Placeholder: add opening hours, parking notes, leisure centre entrance directions and any soft play booking rules.*
-    figure_icon: "mdi:clipboard-check-outline"
-    figure_name: Visit Details
-    figure_subtitle: "<em>Address, hours and booking notes to confirm.</em>"
+      Call 07725 886179 or message on Instagram [@feed.stives](https://www.instagram.com/feed.stives/) with any questions before you come in.
+    figure_icon: "mdi:map-marker-outline"
+    figure_name: Trenwith the Burrows
+    figure_subtitle: Leisure Centre, Saint Ives TR26 1HB
     figure_variant: secondary
     button:
       text: Contact Feed
@@ -111,9 +109,9 @@ blocks:
       href: /menus/menu/
       variant: secondary
     right_content: |
-      ## Booking Later
+      ## Stay & Play
 
-      *Placeholder: once the basket and Stay and Play booking flow are agreed, this panel can point people straight to a session or online order.*
+      Soft play sessions for children at the cafe. Contact us to find out about sessions, availability and what to bring.
     right_button:
       text: Stay & Play
       href: /stay-and-play-softplay/
@@ -131,6 +129,12 @@ blocks:
         caption: The cafe counter and seating area
       - image: /images/feed-menu-board.jpg
         caption: The hanging Feed menu board
+
+  - type: socials
+    directory: social-posts
+    horizontal: true
+    intro_content: |
+      ## Feed On Facebook
 
   - type: cta
     content: |
