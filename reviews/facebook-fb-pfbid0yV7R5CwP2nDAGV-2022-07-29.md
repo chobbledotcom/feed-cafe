@@ -1,0 +1,11 @@
+---
+name: Lucy Blight
+url: https://www.facebook.com/permalink.php?story_fbid=pfbid0312E3yMuK9WrtXe5wLLzkAD7BKe5AHeLEuDvZpWxb8fCSgQQoTYA4hEGjyTTKZ3V3l&id=100013412858767
+rating: 5
+date: 2022-07-29
+source: facebook
+---
+
+no gimmicks or ridiculously high prices, just really friendly staff and absolutely incredible food (the philly cheese steak was amazing).
+
+can't wait to come back and try some more of the menu 😋 xx

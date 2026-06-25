@@ -57,6 +57,24 @@
     border-bottom: 1px solid rgb(36 76 59 / 14%);
     background: rgb(255 253 248 / 92%);
     backdrop-filter: blur(12px);
+
+    .nav-logo-link {
+      position: absolute;
+      left: var(--space-lg, 1.5rem);
+      top: 50%;
+      transform: translateY(-50%);
+      line-height: 0;
+      text-decoration: none;
+
+      @media (width <= 640px) {
+        display: none;
+      }
+    }
+
+    .nav-logo {
+      width: auto;
+      height: 2rem;
+    }
   }
 
   .image-background.tinted::before {
@@ -80,6 +98,9 @@
   }
 
   footer {
+    --color-link: #fffaf0;
+    --color-link-hover: #fff;
+
     position: relative;
     overflow: hidden;
     border-top: 1px solid rgb(247 241 230 / 18%);
@@ -99,7 +120,7 @@
     }
 
     .socials {
-      margin: 0;
+      margin: 0 auto;
       padding-block: 1.5rem 0;
     }
   }
@@ -133,7 +154,7 @@
     width: min(150px, 52vw);
     height: auto;
     margin-bottom: 1rem;
-    filter: drop-shadow(0 8px 18px rgb(0 0 0 / 28%));
+    filter: invert(1) drop-shadow(0 8px 18px rgb(0 0 0 / 28%));
   }
 
   .footer-brand p {

@@ -1,0 +1,9 @@
+---
+name: Toni Pask
+url: https://www.facebook.com/tpask1/posts/pfbid02nfNUgHTmAn7KSBYt8TtrEyN6kTZdckr6ffcQ2kGyDnoDBzDmv4bsWgMHURms7ezal
+rating: 5
+date: 2022-07-15
+source: facebook
+---
+
+was told about this little gem from a friend who loves Hayle as much as we do, and boy it did not disappoint! cute little cafe, no seating out the front but a few benches outside round the back,  quirky and cool decor, we ordered a philly steak sandwich, mac and cheese balls and parmesan and truffle fries. very impressed with it all, packed with flavour, made a lovely change from plain fast food, my smoothie was amazing and very fresh! i had the berry burst and it came with a sprinkle of chai seeds on the top (i think they were chai) gorgeous! all ready within 5 minutes of ordering. Plenty of staff, service with a smile, well done guys! (and once again apologies for my ill mannered 9 year old who said the fries were gross 🙈, he will discover real flavour one day i promise) 10/10 - Go Here!! 👌

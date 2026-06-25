@@ -1,0 +1,9 @@
+---
+name: Claire Careswell
+url: https://www.facebook.com/permalink.php?story_fbid=pfbid02dmTkseTKiJd4xLkC3wMq9Sk9dAcmBmVWyezEFYYREQtYhgDbUCaJnt9YzwbJLHvBl&id=100008650518214
+rating: 5
+date: 2025-06-29
+source: facebook
+---
+
+Food here is absolutely phenomenal! Coffee is great. I eat here a few times a week and have tried almost everything on the menu and can't fault a thing. Party food for my daughters birthday was a massive hit! The kids especially loved the mini burgers and smoothies. Lush outdoor seating area, really child friendly with little watering cans to water the flowers. I would definitely recommend to anyone that will listen to me go on and on about amazing food!

@@ -21,7 +21,7 @@ blocks:
         text: Find Feed on Google Maps
         url: "https://maps.app.goo.gl/2G4XN9DdBrpEHeuH8"
       - icon: "mdi:clock-outline"
-        text: "<em>Opening hours to confirm.</em>"
+        text: "Check our socials or call for current opening times"
       - icon: "mdi:phone"
         text: "07725 886179"
         url: "tel:+447725886179"
@@ -34,18 +34,16 @@ blocks:
     content: |
       ## It Helps To Be Specific
 
-      Most messages should only need a few details. If it is about a table, a soft play session, a menu question or a dietary requirement, the form can route the conversation properly once James has confirmed the operational bits.
-
-      *Placeholder: add final enquiry wording once the inbox and booking process are agreed.*
+      Most messages only need a few details to get a quick answer. Whether it is a table question, a soft play enquiry, something about the menu or just checking before you set off, a short message is enough.
     figure_items:
       - icon: "mdi:calendar"
-        text: Date and rough time if you are asking about Stay and Play
+        text: Date and rough time if you are asking about a visit
       - icon: "mdi:account-child-outline"
         text: Number and ages of children for soft play questions
       - icon: "mdi:food-apple-outline"
-        text: Allergies or dietary questions if the message is about the menu
-      - icon: "mdi:map-marker-radius-outline"
-        text: "<em>Parking, entrance and leisure centre directions to confirm.</em>"
+        text: Allergies or dietary requirements if it is a menu question
+      - icon: "mdi:parking"
+        text: Feed is inside Trenwith the Burrows Leisure Centre — follow signs for the leisure centre car park
 
   - type: contact-form
     content: |
@@ -58,9 +56,11 @@ blocks:
       ## Quick Questions
     items:
       - question: Where exactly is Feed?
-        answer: Feed is at Trenwith the Burrows Leisure Centre, Saint Ives TR26 1HB. *Entrance and parking directions to confirm.*
+        answer: Feed is inside Trenwith the Burrows Leisure Centre, Saint Ives TR26 1HB. Follow signs for the leisure centre from the main road and look for Feed once you are inside.
       - question: When is breakfast served?
-        answer: Breakfast is shown on the board as served until 11.30am.
-      - question: Can I book Stay and Play here?
-        answer: "*Booking link, session capacity and payment flow to confirm.*"
+        answer: Breakfast is served until 11.30am. After that the board switches to the lunch menu with burgers, loaded fries, wraps, sandwiches and power bowls.
+      - question: Can I book Stay and Play?
+        answer: Send us a message using the contact form or call 07725 886179 and we will sort out the details.
+      - question: Do you have parking?
+        answer: There is a car park at Trenwith the Burrows Leisure Centre. Feed is inside the leisure centre building.
 ---
