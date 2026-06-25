@@ -14,7 +14,7 @@ blocks:
     content: |
       # Stay & Play Soft Play
 
-      A simple page for the soft play sessions James mentioned, with the cafe close by for coffee, food and somewhere to sit.
+      Soft play sessions at Feed Cafe & Deli, with coffee, food and somewhere to sit close by.
     buttons:
       - text: Ask About A Session
         href: /contact/
@@ -47,7 +47,7 @@ blocks:
 
       The soft play page can be friendly, but parents will mostly need clear rules: times, prices, ages, capacity, supervision and what happens if plans change.
 
-      *Placeholder: add James's final Stay and Play rules, including whether adults need to book, whether food is included and what happens during busy sessions.*
+      *Placeholder: add the final Stay and Play rules, including whether adults need to book, whether food is included and what happens during busy sessions.*
     figure_items:
       - icon: "mdi:account-child-outline"
         text: "<em>Age range and supervision rules to confirm.</em>"
@@ -85,7 +85,7 @@ blocks:
 
       *This page still needs the operational bits before it should take bookings: age range, supervision rules, capacity, session timetable, prices, cancellation policy and the exact checkout link.*
 
-      *Placeholder: add the final Stay and Play description from James once he confirms how sessions will run.*
+      *Placeholder: add the final Stay and Play description once sessions are confirmed.*
 
   - type: faqs
     intro_content: |

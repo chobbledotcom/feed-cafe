@@ -78,7 +78,7 @@ blocks:
     intro_content: |
       ## From The Photos
 
-      A few quick visual cues from James's images, so the site has more of the actual cafe in it while the final photo set is being chosen.
+      A few photos from the cafe while the final set is being chosen.
     items:
       - image: /images/feed-breakfast.jpg
         name: Breakfast On The Table

@@ -14,7 +14,7 @@ blocks:
     content: |
       # About Feed
 
-      Feed is James Spencer's cafe and deli in St Ives, built around breakfast, coffee, hot food and a room that is easy to sit in.
+      Feed is a cafe and deli in St Ives, built around breakfast, coffee, hot food and a room that is easy to sit in.
 
   - type: stats
     items:
@@ -30,7 +30,7 @@ blocks:
 
       The menu is broad without being silly. There are proper breakfasts and breakfast bagels in the morning, then sandwiches, wraps, smash burgers, loaded fries and power bowls through the day. Kids get a smaller section of their own, and the drinks board covers hot coffee, iced drinks, smoothies and shakes.
 
-      The food photos James sent have the same feel as the room: warm, straightforward, a bit of character from the mascot, and not trying to look like every other cafe on Instagram.
+      The food photos have the same feel as the room: warm, straightforward, a bit of character from the mascot, and not trying to look like every other cafe on Instagram.
     figure_src: /images/feed-breakfast.jpg
     figure_alt: Feed breakfast with beans, egg, hash brown, tomatoes, sausage, bacon, toast and coffee
     button:
