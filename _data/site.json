@@ -13,5 +13,34 @@
 	"map_embed_src": null,
 	"sticky_mobile_nav": true,
 	"horizontal_nav": true,
-	"template_repo_url": "https://git.chobble.com/chobble/chobble-client"
+	"template_repo_url": "https://git.chobble.com/chobble/chobble-client",
+	"cms_config": {
+		"collections": [
+			"pages",
+			"snippets",
+			"news",
+			"reviews",
+			"menus",
+			"menu-categories",
+			"menu-items"
+		],
+		"features": {
+			"permalinks": false,
+			"redirects": false,
+			"faqs": false,
+			"galleries": false,
+			"external_navigation_urls": false,
+			"use_visual_editor": true,
+			"features": false,
+			"external_purchases": false,
+			"add_ons": false,
+			"event_locations_and_dates": true,
+			"no_index": false,
+			"keywords": false,
+			"parent_categories": false
+		},
+		"hasSrcFolder": false,
+		"customHomePage": false,
+		"customBlocksCollections": []
+	}
 }
