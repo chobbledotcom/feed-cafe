@@ -28,7 +28,7 @@ blocks:
     content: |
       ## Breakfast, Burgers, Bowls And A Few Sweet Bits
 
-      The menu is broad without being silly. There are proper breakfasts and breakfast bagels in the morning, then sandwiches, wraps, smash burgers, loaded fries and power bowls through the day. Kids get a smaller section of their own, and the drinks board covers hot coffee, iced drinks, smoothies and shakes.
+      The menu is broad without being silly. There are proper breakfasts and breakfast bagels in the morning, then sandwiches, wraps, smash burgers, loaded fries and power bowls through the day. Kids get a smaller section of their own, and the drinks board covers hot coffee, iced drinks, smoothies and shakes. Food can be eaten in, taken away or ordered for delivery.
 
       The food photos have the same feel as the room: warm, straightforward, a bit of character from the mascot, and not trying to look like every other cafe on Instagram.
     figure_src: /images/feed-breakfast.jpg
@@ -44,7 +44,7 @@ blocks:
     content: |
       ## A Cafe That Still Feels Like A Cafe
 
-      The room is clean, bright and easy to settle into. There is a visible counter, high chairs if you need them, and enough space around the tables that it works for families as well as anyone stopping in for coffee or lunch.
+      The room is clean, bright and easy to settle into. There is a visible counter, high chairs if you need them, and enough space around the tables that it works for families as well as anyone stopping in for coffee or lunch. There is outdoor seating too when the weather is on your side.
 
       That gives the website its theme: cream background, dark green text and buttons, warm wood tones, and a small coral accent instead of anything glossy or over-designed.
     figure_src: /images/feed-cafe-counter.jpg
@@ -83,7 +83,7 @@ blocks:
     content: |
       ## Come In And Say Hello
 
-      Feed is at Trenwith the Burrows Leisure Centre in St Ives. Breakfast until 11.30am, then lunch until close. Call 07725 886179 or find us on Instagram [@feed.stives](https://www.instagram.com/feed.stives/).
+      Feed is at Trenwith the Burrows Leisure Centre in St Ives. Open from 8am Monday to Saturday, closed Sunday. Breakfast until 11.30am, then lunch until close. Call 07725 886179 or find us on Instagram [@feed.stives](https://www.instagram.com/feed.stives/).
     button:
       text: Contact Feed
       href: /contact/

@@ -37,7 +37,7 @@ blocks:
         description: Feed breakfasts, veggie breakfasts, breakfast bagels, acai bowls and breakfast burritos.
       - icon: "mdi:hamburger"
         name: Lunch & Hot Food
-        description: Smash burgers, loaded fries, wraps, sandwiches and power bowls, with kids options on the board too.
+        description: Smash burgers, loaded fries, wraps, sandwiches and power bowls, with kids options on the board too. Available to eat in, take away or order for delivery.
       - icon: "mdi:toy-brick-outline"
         name: Stay & Play Soft Play
         description: Soft play sessions inside the cafe at Trenwith the Burrows Leisure Centre. Contact us for session details and availability.
@@ -47,7 +47,7 @@ blocks:
     content: |
       ## Warm, simple and not too fussy
 
-      The cafe is clean, bright and easy to sit in — a good place to land after swimming or to stop into for lunch without any particular plan.
+      The cafe is clean, bright and easy to sit in — a good place to land after swimming or to stop into for lunch without any particular plan. There are outdoor tables too when the weather is good.
     figure_src: /images/feed-cafe-counter.jpg
     figure_alt: Feed Cafe counter with green panelling, timber slats and bunting
     button:
@@ -61,7 +61,7 @@ blocks:
     content: |
       ## Easy To Find, Worth The Trip
 
-      Feed is inside Trenwith the Burrows Leisure Centre in St Ives. Breakfast runs until 11.30am, then the board switches to lunch. Parking is at the leisure centre car park.
+      Feed is inside Trenwith the Burrows Leisure Centre in St Ives. Open from 8am Monday to Saturday, closed Sunday. Breakfast runs until 11.30am, then the board switches to lunch. Parking is at the leisure centre car park.
 
       Call 07725 886179 or message on Instagram [@feed.stives](https://www.instagram.com/feed.stives/) with any questions before you come in.
     figure_icon: "mdi:map-marker-outline"
