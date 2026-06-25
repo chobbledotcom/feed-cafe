@@ -4,12 +4,14 @@ import { exists, fs, loadEnv, path, write } from "./utils.js";
 
 await loadEnv();
 
+const limitArg = process.argv.find((a) => a.startsWith("--limit="));
+
 const CONFIG = {
   facebookUrl: "https://www.facebook.com/FEEDANDFED/",
   postsDir: path("social-posts"),
   imagesDir: path("images", "facebook-posts"),
   actorId: "KoJrdxJCTtpon81KY",
-  resultsLimit: 50,
+  resultsLimit: limitArg ? Number(limitArg.split("=")[1]) : 50,
 };
 
 const formatSlug = (date, id) => {
@@ -18,8 +20,20 @@ const formatSlug = (date, id) => {
   return `${safeDate}-${safeId}`;
 };
 
+const getImageUrl = (p) => {
+  const mediaItem = p.media?.[0];
+  return (
+    p.fullPicture ||
+    p.image ||
+    p.displayUrl ||
+    mediaItem?.photo_image?.uri ||
+    mediaItem?.thumbnail ||
+    null
+  );
+};
+
 const fetchPosts = async () => {
-  const url = `https://api.apify.com/v2/acts/${CONFIG.actorId}/run-sync-get-dataset-items?token=${process.env.APIFY_API_TOKEN}`;
+  const url = `https://api.apify.com/v2/acts/${CONFIG.actorId}/run-sync-get-dataset-items?token=${process.env.APIFY_API_KEY}`;
   console.log("Fetching Facebook posts...");
 
   const res = await fetch(url, {
@@ -42,7 +56,7 @@ const fetchPosts = async () => {
       date: p.createdTime || p.timestamp,
       title: (p.message || p.text || p.caption || "").slice(0, 200),
       url: p.url,
-      imageUrl: p.fullPicture || p.image || p.displayUrl || null,
+      imageUrl: getImageUrl(p),
     }));
 };
 
@@ -79,8 +93,8 @@ const savePost = async (post) => {
 };
 
 const main = async () => {
-  if (!process.env.APIFY_API_TOKEN) {
-    console.error("Error: APIFY_API_TOKEN required in .env file");
+  if (!process.env.APIFY_API_KEY) {
+    console.error("Error: APIFY_API_KEY required in .env file");
     console.error("Get token: https://console.apify.com/account/integrations");
     process.exit(1);
   }
