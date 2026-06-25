@@ -14,7 +14,7 @@ blocks:
     content: |
       # Feed Menu
 
-      The full board, transcribed from James's cafe menu. Breakfast is served until 11.30am.
+      The full board. Breakfast is served until 11.30am.
 
   - type: menu
 

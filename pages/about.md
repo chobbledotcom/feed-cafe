@@ -14,7 +14,7 @@ blocks:
     content: |
       # About Feed
 
-      Feed is James Spencer's cafe and deli in St Ives, built around breakfast, coffee, hot food and a room that is easy to sit in.
+      Feed is a cafe and deli in St Ives, built around breakfast, coffee, hot food and a room that is easy to sit in.
 
   - type: stats
     items:
@@ -28,9 +28,9 @@ blocks:
     content: |
       ## Breakfast, Burgers, Bowls And A Few Sweet Bits
 
-      The menu is broad without being silly. There are proper breakfasts and breakfast bagels in the morning, then sandwiches, wraps, smash burgers, loaded fries and power bowls through the day. Kids get a smaller section of their own, and the drinks board covers hot coffee, iced drinks, smoothies and shakes.
+      The menu is broad without being silly. There are proper breakfasts and breakfast bagels in the morning, then sandwiches, wraps, smash burgers, loaded fries and power bowls through the day. Kids get a smaller section of their own, and the drinks board covers hot coffee, iced drinks, smoothies and shakes. Food can be eaten in, taken away or ordered for delivery.
 
-      The food photos James sent have the same feel as the room: warm, straightforward, a bit of character from the mascot, and not trying to look like every other cafe on Instagram.
+      The food photos have the same feel as the room: warm, straightforward, a bit of character from the mascot, and not trying to look like every other cafe on Instagram.
     figure_src: /images/feed-breakfast.jpg
     figure_alt: Feed breakfast with beans, egg, hash brown, tomatoes, sausage, bacon, toast and coffee
     button:
@@ -44,7 +44,7 @@ blocks:
     content: |
       ## A Cafe That Still Feels Like A Cafe
 
-      The interior has a lot of useful warmth in it: green panelling, timber slats, wood tables, simple white tiling, hanging bulbs and paper bunting. There is a bit of family practicality too, with high chairs, a visible counter and space around the tables.
+      The room is clean, bright and easy to settle into. There is a visible counter, high chairs if you need them, and enough space around the tables that it works for families as well as anyone stopping in for coffee or lunch. There is outdoor seating too when the weather is on your side.
 
       That gives the website its theme: cream background, dark green text and buttons, warm wood tones, and a small coral accent instead of anything glossy or over-designed.
     figure_src: /images/feed-cafe-counter.jpg
@@ -65,25 +65,49 @@ blocks:
   - type: image-cards
     image_aspect_ratio: "4/3"
     intro_content: |
-      ## Photos To Build Around
-
-      These are the images currently doing the most work on the site. More finished photography can replace them later without changing the page structure.
+      ## From The Cafe
     items:
       - image: /images/feed-cafe-counter.jpg
-        name: Cafe Interior
-        description: Green cabinetry, pale walls, wood, bunting and a visible counter.
-      - image: /images/feed-menu-board.jpg
-        name: Menu Board
-        description: Cream board, black lettering, Feed branding and the full food and drinks list.
+        name: The Counter
+        description: A clean, bright room with a visible counter and enough space to feel relaxed.
       - image: /images/feed-breakfast.jpg
-        name: Breakfast Plate
-        description: A useful lead image because it shows food, coffee, wood table and branding together.
+        name: Breakfast
+        description: A full plate with eggs, toast, beans and coffee. Served until 11.30am.
+      - image: /images/facebook-posts/1970-01-21T13-03-51Z-1742780673368913.jpg
+        name: Smash Burger
+        description: One of the burgers from the lunch board. Hot, stacked and properly made.
+      - image: /images/facebook-posts/1970-01-21T13-58-42Z-1775042306809416.jpg
+        name: Loaded Fries
+        description: Mac and cheese fries with crispy BBQ chicken, pickled onions and jalapeños.
+      - image: /images/facebook-posts/1970-01-21T13-31-27Z-1758600838453563.jpg
+        name: Outside
+        description: Alfresco tables with views across St Ives when the weather is good.
+      - image: /images/facebook-posts/1970-01-21T13-48-25Z-1768914160755564.jpg
+        name: A Slow Morning
+        description: The cafe early on. Coffee, no noise, a good spot to start the day.
+
+  - type: gallery
+    aspect_ratio: "4/3"
+    intro_content: "## More From The Board"
+    items:
+      - image: /images/feed-loaded-fries.jpg
+        caption: Loaded fries
+      - image: /images/facebook-posts/1970-01-21T13-14-01Z-1748681372778843.jpg
+        caption: Shakshuka on the breakfast board
+      - image: /images/facebook-posts/1970-01-21T13-55-50Z-1773219723658341.jpg
+        caption: Wraps from the lunch board
+      - image: /images/facebook-posts/1970-01-21T13-06-51Z-1744631073183873.jpg
+        caption: Veggie options
+      - image: /images/feed-menu-board.jpg
+        caption: The board
+      - image: /images/facebook-posts/1970-01-21T13-32-43Z-1759355628378084.jpg
+        caption: Steak and eggs
 
   - type: cta
     content: |
       ## Come In And Say Hello
 
-      Feed is at Trenwith the Burrows Leisure Centre in St Ives. Breakfast until 11.30am, then lunch until close. Call 07725 886179 or find us on Instagram [@feed.stives](https://www.instagram.com/feed.stives/).
+      Feed is at Trenwith the Burrows Leisure Centre in St Ives. Open from 8am Monday to Saturday, closed Sunday. Breakfast until 11.30am, then lunch until close. Call 07725 886179 or find us on Instagram [@feed.stives](https://www.instagram.com/feed.stives/).
     button:
       text: Contact Feed
       href: /contact/

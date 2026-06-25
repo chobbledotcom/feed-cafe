@@ -41,13 +41,19 @@ blocks:
       - icon: "mdi:toy-brick-outline"
         name: Stay & Play Soft Play
         description: Soft play sessions inside the cafe at Trenwith the Burrows Leisure Centre. Contact us for session details and availability.
+      - icon: "mdi:truck-delivery-outline"
+        name: Delivery & Collection
+        description: Food to eat in, take away or have delivered. Call ahead to order for collection, or get it brought to you.
+      - icon: "mdi:table-chair"
+        name: Outside Seating
+        description: Outdoor tables for good weather. The cafe is on the hill above St Ives, so when the sun is out there is usually a view worth sitting out for.
 
   - type: split-image
     subtitle: Inside the cafe
     content: |
       ## Warm, simple and not too fussy
 
-      The cafe has deep green panelling, pale walls, timber tables, slatted wood around the counter, hanging bulbs and a bit of colour from the bunting. It feels like somewhere you can bring children without everything looking like a soft play warehouse.
+      The cafe is clean, bright and easy to sit in — a good place to land after swimming or to stop into for lunch without any particular plan. There are outdoor tables too when the weather is good.
     figure_src: /images/feed-cafe-counter.jpg
     figure_alt: Feed Cafe counter with green panelling, timber slats and bunting
     button:
@@ -61,7 +67,7 @@ blocks:
     content: |
       ## Easy To Find, Worth The Trip
 
-      Feed is inside Trenwith the Burrows Leisure Centre in St Ives. Breakfast runs until 11.30am, then the board switches to lunch. Parking is at the leisure centre car park.
+      Feed is inside Trenwith the Burrows Leisure Centre in St Ives. Open from 8am Monday to Saturday, closed Sunday. Breakfast runs until 11.30am, then the board switches to lunch. Parking is at the leisure centre car park.
 
       Call 07725 886179 or message on Instagram [@feed.stives](https://www.instagram.com/feed.stives/) with any questions before you come in.
     figure_icon: "mdi:map-marker-outline"
@@ -76,9 +82,7 @@ blocks:
   - type: image-cards
     image_aspect_ratio: "4/3"
     intro_content: |
-      ## From The Photos
-
-      A few quick visual cues from James's images, so the site has more of the actual cafe in it while the final photo set is being chosen.
+      ## From The Cafe
     items:
       - image: /images/feed-breakfast.jpg
         name: Breakfast On The Table
@@ -86,9 +90,18 @@ blocks:
       - image: /images/feed-loaded-fries.jpg
         name: Loaded Fries
         description: Hot food in a takeaway bowl, with enough colour and sauce to feel like a proper lunch.
+      - image: /images/facebook-posts/1970-01-21T13-03-51Z-1742780673368913.jpg
+        name: Smash Burger
+        description: One of the burgers from the lunch board.
       - image: /images/feed-cafe-counter.jpg
         name: The Counter
-        description: Green signage, timber slats, bunting, high chairs and a room that feels useful rather than staged.
+        description: Clean and bright, with an easy feel whether you are stopping in after a swim or just coming in for coffee.
+      - image: /images/facebook-posts/1970-01-21T13-31-27Z-1758600838453563.jpg
+        name: Outside
+        description: Alfresco tables with a view when the sun is out.
+      - image: /images/facebook-posts/1970-01-21T13-14-01Z-1748681372778843.jpg
+        name: Shakshuka
+        description: On the breakfast board. Good for sunny mornings.
 
   - type: items
     collection: menus
@@ -129,6 +142,14 @@ blocks:
         caption: The cafe counter and seating area
       - image: /images/feed-menu-board.jpg
         caption: The hanging Feed menu board
+      - image: /images/facebook-posts/1970-01-21T13-58-42Z-1775042306809416.jpg
+        caption: Mac and cheese loaded fries with crispy BBQ chicken
+      - image: /images/facebook-posts/1970-01-21T13-55-50Z-1773219723658341.jpg
+        caption: Wraps from the lunch board
+      - image: /images/facebook-posts/1970-01-21T13-31-27Z-1758600838453563.jpg
+        caption: Alfresco tables with views across St Ives
+      - image: /images/facebook-posts/1970-01-21T13-48-25Z-1768914160755564.jpg
+        caption: A slow morning at Feed
 
   - type: socials
     directory: social-posts
