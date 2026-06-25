@@ -28,6 +28,9 @@ blocks:
       - icon: "mdi:instagram"
         text: "@feed.stives"
         url: "https://www.instagram.com/feed.stives/"
+      - icon: "simple-icons:tripadvisor"
+        text: Feed on Tripadvisor
+        url: "https://www.tripadvisor.co.uk/Restaurant_Review-g186243-d33248706-Reviews-Feed_St_Ives-St_Ives_Cornwall_England.html"
 
   - type: split-icon-links
     subtitle: What to include

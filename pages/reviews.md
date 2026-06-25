@@ -20,7 +20,7 @@ blocks:
     content: |
       ## Enjoyed Your Visit?
 
-      Leave a review on Google Maps or find us on Facebook.
+      Leave a review on [Google Maps](https://maps.app.goo.gl/2G4XN9DdBrpEHeuH8) or [Tripadvisor](https://www.tripadvisor.co.uk/Restaurant_Review-g186243-d33248706-Reviews-Feed_St_Ives-St_Ives_Cornwall_England.html).
     button:
       text: Find Us On Google Maps
       href: https://maps.app.goo.gl/2G4XN9DdBrpEHeuH8
