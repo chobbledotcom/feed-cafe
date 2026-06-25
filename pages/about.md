@@ -65,19 +65,43 @@ blocks:
   - type: image-cards
     image_aspect_ratio: "4/3"
     intro_content: |
-      ## Photos To Build Around
-
-      These are the images currently doing the most work on the site. More finished photography can replace them later without changing the page structure.
+      ## From The Cafe
     items:
       - image: /images/feed-cafe-counter.jpg
-        name: Cafe Interior
+        name: The Counter
         description: A clean, bright room with a visible counter and enough space to feel relaxed.
-      - image: /images/feed-menu-board.jpg
-        name: Menu Board
-        description: Cream board, black lettering, Feed branding and the full food and drinks list.
       - image: /images/feed-breakfast.jpg
-        name: Breakfast Plate
-        description: A useful lead image because it shows food, coffee, wood table and branding together.
+        name: Breakfast
+        description: A full plate with eggs, toast, beans and coffee. Served until 11.30am.
+      - image: /images/facebook-posts/1970-01-21T13-03-51Z-1742780673368913.jpg
+        name: Smash Burger
+        description: One of the burgers from the lunch board. Hot, stacked and properly made.
+      - image: /images/facebook-posts/1970-01-21T13-58-42Z-1775042306809416.jpg
+        name: Loaded Fries
+        description: Mac and cheese fries with crispy BBQ chicken, pickled onions and jalapeños.
+      - image: /images/facebook-posts/1970-01-21T13-31-27Z-1758600838453563.jpg
+        name: Outside
+        description: Alfresco tables with views across St Ives when the weather is good.
+      - image: /images/facebook-posts/1970-01-21T13-48-25Z-1768914160755564.jpg
+        name: A Slow Morning
+        description: The cafe early on. Coffee, no noise, a good spot to start the day.
+
+  - type: gallery
+    aspect_ratio: "4/3"
+    intro_content: "## More From The Board"
+    items:
+      - image: /images/feed-loaded-fries.jpg
+        caption: Loaded fries
+      - image: /images/facebook-posts/1970-01-21T13-14-01Z-1748681372778843.jpg
+        caption: Shakshuka on the breakfast board
+      - image: /images/facebook-posts/1970-01-21T13-55-50Z-1773219723658341.jpg
+        caption: Wraps from the lunch board
+      - image: /images/facebook-posts/1970-01-21T13-06-51Z-1744631073183873.jpg
+        caption: Veggie options
+      - image: /images/feed-menu-board.jpg
+        caption: The board
+      - image: /images/facebook-posts/1970-01-21T13-32-43Z-1759355628378084.jpg
+        caption: Steak and eggs
 
   - type: cta
     content: |
