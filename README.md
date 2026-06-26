@@ -33,7 +33,7 @@ When you push to GitHub:
 
 Set these GitHub secrets for your repo:
 - `NEOCITIES_API_KEY` - For deployment
-- `FORMSPARK_ID` - For contact forms (optional)
+- `FORMSPARK_ID` - For contact and menu quote forms
 - `BOTPOISON_PUBLIC_KEY` - For spam protection (optional)
 
 ## Local Development

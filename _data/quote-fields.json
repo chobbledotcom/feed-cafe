@@ -1,0 +1,71 @@
+{
+	"quoteStepName": "Your Items",
+	"recapTitle": "Review Your Request",
+	"sections": [
+		{
+			"name": "Order Details",
+			"fields": [
+				{
+					"type": "heading",
+					"name": "Order Details"
+				},
+				{
+					"name": "collection_date",
+					"type": "date",
+					"label": "Collection Date",
+					"required": true,
+					"half": true
+				},
+				{
+					"name": "collection_time",
+					"label": "Collection Time",
+					"placeholder": "e.g. 12:30pm",
+					"required": true,
+					"half": true
+				},
+				{
+					"name": "order_notes",
+					"type": "textarea",
+					"label": "Order Notes",
+					"placeholder": "Allergies, dietary needs, collection notes or questions",
+					"rows": 4
+				}
+			]
+		},
+		{
+			"name": "Your Details",
+			"fields": [
+				{
+					"type": "heading",
+					"name": "Your Details"
+				},
+				{
+					"name": "name",
+					"label": "Your Name",
+					"placeholder": "Your name",
+					"required": true
+				},
+				{
+					"name": "email",
+					"type": "email",
+					"label": "Email Address",
+					"placeholder": "Your email address",
+					"required": true
+				},
+				{
+					"name": "phone",
+					"label": "Phone Number",
+					"placeholder": "Your phone number",
+					"required": true
+				},
+				{
+					"name": "contact_preference",
+					"type": "radio",
+					"label": "Preferred Contact Method",
+					"options": ["Email", "Phone", "Either"]
+				}
+			]
+		}
+	],
+	"submitButtonText": "Send Menu Quote"
+}

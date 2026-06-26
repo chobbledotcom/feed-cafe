@@ -1,7 +1,11 @@
 {
-	"cart_mode": null,
+	"botpoison_public_key": null,
+	"cart_mode": "quote",
+	"contact_form_target": null,
 	"currency": "GBP",
+	"default_max_quantity": 20,
 	"enable_theme_switcher": false,
+	"formspark_id": null,
 	"has_products_filter": false,
 	"horizontal_nav": true,
 	"placeholder_images": true,

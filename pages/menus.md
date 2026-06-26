@@ -27,7 +27,7 @@ blocks:
         description: Coffee, iced drinks, smoothies and shakes.
       - icon: "mdi:cart-outline"
         name: Ordering
-        description: "*Online ordering, basket behaviour and collection rules to confirm.*"
+        description: Add menu items to a quote basket and send a collection request.
 
   - type: items
     collection: menus
@@ -43,7 +43,7 @@ blocks:
       *Placeholder: add allergen notes, dietary labels, collection times and whether any items are seasonal or limited.*
     figure_icon: "mdi:clipboard-text-outline"
     figure_name: Menu Check
-    figure_subtitle: "<em>Allergens, prices and online ordering details to confirm.</em>"
+    figure_subtitle: "<em>Allergens, prices and collection details to confirm.</em>"
     figure_variant: secondary
     button:
       text: Contact Feed
