@@ -21,7 +21,7 @@ blocks:
         variant: primary
         size: lg
       - text: See The Menu
-        href: /menus/
+        href: /menu/
         variant: secondary
         size: lg
 
