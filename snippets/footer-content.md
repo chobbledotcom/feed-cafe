@@ -13,7 +13,7 @@ name: Footer Content
   <div class="footer-links">
     <p class="footer-heading">Useful Pages</p>
     <ul>
-      <li><a href="/menus/">Menu</a></li>
+      <li><a href="/menu/">Menu</a></li>
       <li><a href="/stay-and-play-softplay/">Stay &amp; Play</a></li>
       <li><a href="/about/">About Feed</a></li>
       <li><a href="/reviews/">Reviews</a></li>
