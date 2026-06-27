@@ -17,6 +17,7 @@ blocks:
       The full board. Breakfast is served until 11.30am.
 
   - type: menu
+    cards: true
 
   - type: menu-pdf-download
     text: Download The Menu PDF
