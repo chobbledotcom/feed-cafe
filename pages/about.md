@@ -35,7 +35,7 @@ blocks:
     figure_alt: Feed breakfast with beans, egg, hash brown, tomatoes, sausage, bacon, toast and coffee
     button:
       text: Read The Menu
-      href: /menus/
+      href: /menu/
       variant: secondary
 
   - type: split-image
