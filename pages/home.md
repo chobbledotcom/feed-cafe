@@ -18,7 +18,7 @@ blocks:
       Good food, good coffee and a bit of room to sit down in St Ives. We do breakfast until 11.30am, then the board moves through sandwiches, burgers, loaded fries, power bowls, cakes and drinks.
     buttons:
       - text: See the Menu
-        href: /menus/
+        href: /menu/
         variant: primary
         size: lg
       - text: Stay & Play
