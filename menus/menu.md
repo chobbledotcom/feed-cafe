@@ -6,6 +6,9 @@ header_image: /images/feed-menu-board.jpg
 thumbnail: /images/feed-breakfast.jpg
 meta_title: Feed Cafe & Deli Menu | St Ives
 meta_description: Feed Cafe & Deli menu with breakfast, sandwiches, smash burgers, loaded fries, power bowls, kids meals, sweet treats, coffee, smoothies and shakes.
+eleventyNavigation:
+  key: Menu
+  order: 2
 blocks:
   - type: image-background
     image: /images/feed-menu-board.jpg
