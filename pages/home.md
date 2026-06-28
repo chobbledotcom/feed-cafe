@@ -8,8 +8,8 @@ eleventyNavigation:
   order: 1
 blocks:
   - type: image-background
-    image: /images/feed-breakfast.jpg
-    image_alt: Feed breakfast with coffee on a wooden table
+    image: /images/facebook-posts/1970-01-21T14-11-44Z-1783045702675743.jpg
+    image_alt: Wrap and chips on an outdoor table at Feed Cafe with blue sky and sunshine
     tint: true
     parallax: true
     content: |
@@ -40,7 +40,7 @@ blocks:
         description: Smash burgers, loaded fries, wraps, sandwiches and power bowls, with kids options on the board too.
       - icon: "mdi:toy-brick-outline"
         name: Stay & Play Soft Play
-        description: Soft play sessions inside the cafe at Trenwith the Burrows Leisure Centre. Contact us for session details and availability.
+        description: Soft play sessions inside the cafe at St Ives Leisure Centre, Trenwith Burrows. Contact us for session details and availability.
       - icon: "mdi:truck-delivery-outline"
         name: Delivery & Collection
         description: Food to eat in, take away or have delivered. Call ahead to order for collection, or get it brought to you.
@@ -67,12 +67,12 @@ blocks:
     content: |
       ## Easy To Find, Worth The Trip
 
-      Feed is inside Trenwith the Burrows Leisure Centre in St Ives. Open from 8am Monday to Saturday, closed Sunday. Breakfast runs until 11.30am, then the board switches to lunch. Parking is at the leisure centre car park.
+      Feed is inside St Ives Leisure Centre, Trenwith Burrows, St Ives. Open from 8am Monday to Saturday, closed Sunday. Breakfast runs until 11.30am, then the board switches to lunch. Parking is at the leisure centre car park.
 
       Call 07725 886179 or message on Instagram [@feed.stives](https://www.instagram.com/feed.stives/) with any questions before you come in.
     figure_icon: "mdi:map-marker-outline"
-    figure_name: Trenwith the Burrows
-    figure_subtitle: Leisure Centre, Saint Ives TR26 1HB
+    figure_name: St Ives Leisure Centre
+    figure_subtitle: "Trenwith Burrows, St Ives, Cornwall, TR26 1HB"
     figure_variant: secondary
     button:
       text: Contact Feed

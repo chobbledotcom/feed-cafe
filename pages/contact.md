@@ -16,7 +16,7 @@ blocks:
   - type: icon-links
     items:
       - icon: "mdi:map-marker"
-        text: Trenwith the Burrows Leisure Centre, Saint Ives TR26 1HB
+        text: "Feed Cafe & Deli, St Ives Leisure Centre, Trenwith Burrows, St Ives, Cornwall, TR26 1HB"
       - icon: "mdi:map-search-outline"
         text: Find Feed on Google Maps
         url: "https://maps.app.goo.gl/2G4XN9DdBrpEHeuH8"
@@ -46,7 +46,7 @@ blocks:
       - icon: "mdi:food-apple-outline"
         text: Allergies or dietary requirements if it is a menu question
       - icon: "mdi:parking"
-        text: Feed is inside Trenwith the Burrows Leisure Centre — follow signs for the leisure centre car park
+        text: Feed is inside St Ives Leisure Centre, Trenwith Burrows — follow signs for the leisure centre car park
 
   - type: contact-form
     content: |
@@ -59,11 +59,11 @@ blocks:
       ## Quick Questions
     items:
       - question: Where exactly is Feed?
-        answer: Feed is inside Trenwith the Burrows Leisure Centre, Saint Ives TR26 1HB. Follow signs for the leisure centre from the main road and look for Feed once you are inside.
+        answer: "Feed is inside St Ives Leisure Centre, Trenwith Burrows, St Ives, Cornwall, TR26 1HB. Follow signs for the leisure centre from the main road and look for Feed once you are inside."
       - question: When is breakfast served?
         answer: Breakfast is served until 11.30am. After that the board switches to the lunch menu with burgers, loaded fries, wraps, sandwiches and power bowls.
       - question: Can I book Stay and Play?
         answer: Send us a message using the contact form or call 07725 886179 and we will sort out the details.
       - question: Do you have parking?
-        answer: There is a car park at Trenwith the Burrows Leisure Centre. Feed is inside the leisure centre building.
+        answer: There is a car park at St Ives Leisure Centre, Trenwith Burrows. Feed is inside the leisure centre building.
 ---
