@@ -119,7 +119,7 @@ blocks:
       The menu should stay easy to scan: breakfast until 11.30am, then the bigger lunch board, kids food, sweet things and drinks.
     left_button:
       text: Read The Menu
-      href: /menus/menu/
+      href: /menu/
       variant: secondary
     right_content: |
       ## Stay & Play

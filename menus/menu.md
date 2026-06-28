@@ -1,5 +1,6 @@
 ---
 name: All Day Menu
+permalink: /menu/
 order: 1
 subtitle: Breakfast until 11.30am, then sandwiches, burgers, loaded fries, bowls, kids food, sweet stuff and drinks.
 header_image: /images/feed-menu-board.jpg
