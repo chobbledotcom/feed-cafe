@@ -23,7 +23,7 @@ name: Footer Content
   <div class="footer-contact">
     <p class="footer-heading">Visit Feed</p>
     <ul>
-      <li>Trenwith the Burrows Leisure Centre, Saint Ives TR26 1HB</li>
+      <li>Feed Cafe &amp; Deli, St Ives Leisure Centre, Trenwith Burrows, St Ives, Cornwall, TR26 1HB</li>
       <li><a href="https://maps.app.goo.gl/2G4XN9DdBrpEHeuH8">Find Feed on Google Maps</a></li>
       <li>Breakfast until 11.30am &middot; Lunch until close</li>
       <li><a href="tel:+447725886179">07725 886179</a></li>

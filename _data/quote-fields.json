@@ -10,6 +10,13 @@
 					"name": "Order Details"
 				},
 				{
+					"name": "collection_or_delivery",
+					"type": "radio",
+					"label": "Collection or delivery?",
+					"required": true,
+					"options": ["Collection", "Delivery (+£3)"]
+				},
+				{
 					"name": "collection_date",
 					"type": "date",
 					"label": "Collection Date",

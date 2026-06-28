@@ -107,7 +107,7 @@ blocks:
     content: |
       ## Come In And Say Hello
 
-      Feed is at Trenwith the Burrows Leisure Centre in St Ives. Open from 8am Monday to Saturday, closed Sunday. Breakfast until 11.30am, then lunch until close. Call 07725 886179 or find us on Instagram [@feed.stives](https://www.instagram.com/feed.stives/).
+      Feed is at St Ives Leisure Centre, Trenwith Burrows, St Ives, Cornwall, TR26 1HB. Open from 8am Monday to Saturday, closed Sunday. Breakfast until 11.30am, then lunch until close. Call 07725 886179 or find us on Instagram [@feed.stives](https://www.instagram.com/feed.stives/).
     button:
       text: Contact Feed
       href: /contact/
