@@ -5,6 +5,7 @@
 	"currency": "GBP",
 	"default_max_quantity": 20,
 	"enable_theme_switcher": false,
+	"contact_form_target": "https://auto.chobble.com/webhooks/flows/c93edfc5-8441-4886-b017-1a93b558d5dd/sync",
 	"formspark_id": "phjEt0mNO",
 	"has_products_filter": false,
 	"horizontal_nav": true,
