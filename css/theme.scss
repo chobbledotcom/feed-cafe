@@ -7,7 +7,8 @@
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url("/assets/fonts/finlandica-headline-latin-500-normal.woff2") format("woff2");
+  src: url("/assets/fonts/finlandica-headline-latin-500-normal.woff2")
+    format("woff2");
 }
 
 :root {
@@ -36,9 +37,11 @@
   --link-decoration-hover: none;
   --link-decoration-style: solid;
   --font-family-body:
-    "Aptos", "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    "Aptos", "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont,
+    sans-serif;
   --font-family-heading:
-    "Finlandica Headline", "Bahnschrift", "DIN Condensed", "Arial Narrow", "Aptos", sans-serif;
+    "Finlandica Headline", "Bahnschrift", "DIN Condensed", "Arial Narrow",
+    "Aptos", sans-serif;
 }
 
 .design-system {
@@ -92,8 +95,7 @@
   }
 
   .feature,
-  .item,
-  .review {
+  .item {
     border: 1px solid rgb(36 76 59 / 12%);
   }
 
@@ -127,7 +129,10 @@
 
   .footer-grid {
     display: grid;
-    grid-template-columns: minmax(0, 1.35fr) minmax(12rem, 0.8fr) minmax(14rem, 1fr);
+    grid-template-columns: minmax(0, 1.35fr) minmax(12rem, 0.8fr) minmax(
+        14rem,
+        1fr
+      );
     gap: clamp(1.5rem, 4vw, 3rem);
     width: min(1120px, calc(100% - 2rem));
     margin: 0 auto;
