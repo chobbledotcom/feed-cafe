@@ -154,7 +154,6 @@ blocks:
   - type: socials
     directory: social-posts
     masonry: true
-    limit: 12
     intro_content: |
       ## Feed On Facebook
 
