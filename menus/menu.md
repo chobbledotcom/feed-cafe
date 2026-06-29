@@ -23,8 +23,9 @@ blocks:
   - type: menu
     cards: true
 
-  - type: menu-pdf-download
+  - type: link-button
     text: Download The Menu PDF
+    href: /menus/menu/feed-cafe-and-deli-menu.pdf
     variant: primary
     size: lg
 
