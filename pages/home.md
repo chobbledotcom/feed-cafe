@@ -153,7 +153,7 @@ blocks:
 
   - type: socials
     directory: social-posts
-    horizontal: true
+    masonry: true
     intro_content: |
       ## Feed On Facebook
 

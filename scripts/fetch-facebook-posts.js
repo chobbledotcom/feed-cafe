@@ -54,7 +54,7 @@ const fetchPosts = async () => {
     .map((p) => ({
       id: p.postId || p.id || p.url,
       date: p.createdTime || p.timestamp,
-      title: (p.message || p.text || p.caption || "").slice(0, 200),
+      name: (p.message || p.text || p.caption || "").slice(0, 200),
       url: p.url,
       imageUrl: getImageUrl(p),
     }));
@@ -86,7 +86,7 @@ const savePost = async (post) => {
 
   await write(
     jsonPath,
-    `${JSON.stringify({ url: post.url, date: post.date, title: post.title, thumbnail }, null, 2)}\n`,
+    `${JSON.stringify({ url: post.url, date: post.date, name: post.name, thumbnail }, null, 2)}\n`,
   );
   console.log(`${slug}.json`);
   return true;
