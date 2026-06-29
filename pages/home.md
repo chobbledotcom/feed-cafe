@@ -8,7 +8,7 @@ eleventyNavigation:
   order: 1
 blocks:
   - type: image-background
-    image: /images/facebook-posts/1970-01-21T14-11-44Z-1783045702675743.jpg
+    image: /images/homepage.jpg
     image_alt: Wrap and chips on an outdoor table at Feed Cafe with blue sky and sunshine
     tint: true
     parallax: true
