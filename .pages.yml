@@ -532,6 +532,7 @@ components:
         label: Intro Content (Markdown)
       - { name: horizontal, type: boolean, label: Horizontal Slider }
       - { name: masonry, type: boolean, label: Masonry Grid }
+      - { name: limit, type: number, label: Limit Posts }
       - name: filter
         type: object
         label: Filter
