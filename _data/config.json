@@ -15,5 +15,6 @@
 	"show_breadcrumbs": true,
 	"sticky_mobile_nav": true,
 	"template_repo_url": "https://git.chobble.com/chobble/chobble-client",
-	"use_visual_editor": true
+	"use_visual_editor": true,
+	"homepage_footer_markdown": "Site by [chobble.com](https://chobble.com)"
 }
