@@ -1201,9 +1201,6 @@ content:
         list: true
         options:
           collection: menu-categories
-          search: fields.name
-          value: "{path}"
-          label: "{fields.name}"
       - { name: description, type: string, label: Description }
       - { name: body, type: rich-text, label: Body }
       - name: blocks
