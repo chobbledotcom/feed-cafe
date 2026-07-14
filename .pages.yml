@@ -515,11 +515,12 @@ components:
       - name: reference
         label: Snippet
         type: reference
-        list: true
         options:
-          search: primary
+          collection: snippets
+          search: fields.name
           value: "{path}"
-          label: "{primary}"
+          label: "{fields.name}"
+        required: true
   block_socials:
     label: Socials
     type: object
@@ -821,6 +822,7 @@ components:
     fields:
       - { name: dark, type: boolean, label: Dark }
       - { name: compact, type: boolean, label: Compact }
+      - { name: cards, type: boolean, label: Cards }
   block_menu_pdf_download:
     label: Menu Pdf Download
     type: object
@@ -837,7 +839,7 @@ content:
     path: pages
     type: collection
     subfolders: false
-    filename: "{primary}.md"
+    filename: "{name}.md"
     view:
       fields:
         - meta_title
@@ -845,6 +847,7 @@ content:
       sort:
         - meta_title
     fields:
+      - { name: name, type: string, label: Name, required: true }
       - { name: subtitle, type: string, label: Subtitle }
       - { name: body, type: rich-text, label: Body }
       - { name: meta_title, component: meta_title }
@@ -912,15 +915,18 @@ content:
     path: snippets
     type: collection
     subfolders: false
-    filename: "{primary}.md"
+    filename: "{name}.md"
+    exclude:
+      - README.md
     fields:
-      - { name: name, type: string, label: Name }
+      - { name: name, type: string, label: Name, required: true }
       - { name: body, type: rich-text, label: Body }
   - name: news
     label: News
     path: news
     type: collection
     subfolders: false
+    filename: "{year}-{month}-{day}-{name}.md"
     view:
       fields:
         - name
@@ -929,7 +935,7 @@ content:
       sort:
         - date
     fields:
-      - { name: name, type: string, label: Name }
+      - { name: name, type: string, label: Name, required: true }
       - { name: date, label: Date, type: date }
       - { name: subtitle, type: string, label: Subtitle }
       - { name: body, type: rich-text, label: Body }
@@ -989,9 +995,9 @@ content:
     path: reviews
     type: collection
     subfolders: false
-    filename: "{primary}.md"
+    filename: "{name}.md"
     fields:
-      - { name: name, type: string, label: Name }
+      - { name: name, type: string, label: Name, required: true }
       - { name: url, type: string, label: URL }
       - { name: rating, type: number, label: Rating }
       - { name: thumbnail, type: image, label: Reviewer Photo }
@@ -1049,9 +1055,9 @@ content:
     path: menus
     type: collection
     subfolders: false
-    filename: "{primary}.md"
+    filename: "{name}.md"
     fields:
-      - { name: name, type: string, label: Name }
+      - { name: name, type: string, label: Name, required: true }
       - { name: subtitle, type: string, label: Subtitle }
       - { name: thumbnail, type: image, label: Thumbnail }
       - { name: order, type: number, label: Order }
@@ -1113,9 +1119,9 @@ content:
     path: menu-categories
     type: collection
     subfolders: false
-    filename: "{primary}.md"
+    filename: "{name}.md"
     fields:
-      - { name: name, type: string, label: Name }
+      - { name: name, type: string, label: Name, required: true }
       - { name: thumbnail, type: image, label: Thumbnail }
       - { name: order, type: number, label: Order }
       - name: menus
@@ -1124,9 +1130,9 @@ content:
         list: true
         options:
           collection: menus
-          search: primary
+          search: fields.name
           value: "{path}"
-          label: "{primary}"
+          label: "{fields.name}"
       - { name: body, type: rich-text, label: Body }
       - name: blocks
         label: Content Blocks
@@ -1181,11 +1187,12 @@ content:
     path: menu-items
     type: collection
     subfolders: false
-    filename: "{primary}.md"
+    filename: "{name}.md"
     fields:
-      - { name: name, type: string, label: Name }
+      - { name: name, type: string, label: Name, required: true }
       - { name: thumbnail, type: image, label: Thumbnail }
       - { name: price, type: string, label: Price }
+      - { name: sku, type: string, label: SKU }
       - { name: is_vegan, type: boolean, label: Is Vegan }
       - { name: is_gluten_free, type: boolean, label: Is Gluten Free }
       - name: menu_categories
@@ -1194,9 +1201,9 @@ content:
         list: true
         options:
           collection: menu-categories
-          search: primary
+          search: fields.name
           value: "{path}"
-          label: "{primary}"
+          label: "{fields.name}"
       - { name: description, type: string, label: Description }
       - { name: body, type: rich-text, label: Body }
       - name: blocks
