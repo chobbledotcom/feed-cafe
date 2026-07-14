@@ -59,7 +59,15 @@
   nav {
     border-bottom: 1px solid rgb(36 76 59 / 14%);
     background: rgb(255 253 248 / 92%);
-    backdrop-filter: blur(12px);
+
+    // `backdrop-filter` makes <nav> the containing block for its
+    // `position: fixed` descendants, which collapses the chobble-template's
+    // full-height mobile menu (`nav > ul`, `top: 3rem; bottom: 0`) down to the
+    // height of the bar. Only blur at desktop widths (md = 768px), where
+    // <nav> is not the fixed mobile bar.
+    @media screen and (min-width: 769px) {
+      backdrop-filter: blur(12px);
+    }
 
     .nav-logo-link {
       position: absolute;
