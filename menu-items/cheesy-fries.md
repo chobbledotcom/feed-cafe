@@ -1,5 +1,6 @@
 ---
 name: Cheesy Fries
+thumbnail: /images/cheesy-fries-and-wraps.jpg
 order: 3
 price: £5.00
 is_vegan: false

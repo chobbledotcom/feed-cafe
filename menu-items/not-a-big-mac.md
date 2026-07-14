@@ -1,5 +1,6 @@
 ---
 name: Not a Big Mac
+thumbnail: /images/smash-burger.jpg
 order: 4
 price: £11.00
 is_vegan: false

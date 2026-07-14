@@ -1,5 +1,6 @@
 ---
 name: Iced Mocha
+thumbnail: /images/iced-coffee-and-milkshake.png
 order: 2
 price: £4.60
 is_vegan: false

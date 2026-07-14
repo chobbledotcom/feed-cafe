@@ -1,5 +1,6 @@
 ---
 name: Philly Cheesesteak Sandwich
+thumbnail: /images/steak-ciabatta.jpg
 order: 1
 price: £14.00
 is_vegan: false

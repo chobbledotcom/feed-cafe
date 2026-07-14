@@ -1,5 +1,6 @@
 ---
 name: Chicken Caesar Salad or Wrap
+thumbnail: /images/lunch-wrap.jpg
 order: 3
 price: £10.00
 is_vegan: false

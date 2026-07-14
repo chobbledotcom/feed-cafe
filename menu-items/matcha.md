@@ -1,5 +1,6 @@
 ---
 name: Matcha
+thumbnail: /images/matcha.png
 order: 3
 price: £4.60
 is_vegan: false

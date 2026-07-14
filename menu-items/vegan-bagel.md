@@ -1,5 +1,6 @@
 ---
 name: Vegan
+thumbnail: /images/breakfast-bagel.jpg
 order: 3
 price: £7.00
 is_vegan: true

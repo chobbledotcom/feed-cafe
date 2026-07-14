@@ -1,5 +1,6 @@
 ---
 name: Steak and Peppercorn Loaded
+thumbnail: /images/steak-and-peppercorn-loaded-fries.png
 order: 4
 price: £15.00
 is_vegan: false

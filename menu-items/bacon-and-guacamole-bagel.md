@@ -1,5 +1,6 @@
 ---
 name: Bacon and Guacamole
+thumbnail: /images/breakfast-bagel.jpg
 order: 1
 price: £7.00
 is_vegan: false

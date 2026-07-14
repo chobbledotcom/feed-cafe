@@ -1,5 +1,6 @@
 ---
 name: Classic Smash
+thumbnail: /images/smash-burger.jpg
 order: 1
 price: £10.00
 is_vegan: false

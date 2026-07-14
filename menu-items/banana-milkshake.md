@@ -1,5 +1,6 @@
 ---
 name: Banana
+thumbnail: /images/iced-coffee-and-milkshake.png
 order: 4
 price: £5.00
 is_vegan: false

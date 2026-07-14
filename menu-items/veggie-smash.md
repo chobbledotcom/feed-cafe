@@ -1,5 +1,6 @@
 ---
 name: Veggie
+thumbnail: /images/veggie-burger.jpg
 order: 6
 price: £10.00
 is_vegan: false

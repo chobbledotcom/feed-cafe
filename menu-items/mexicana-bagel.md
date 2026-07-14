@@ -1,5 +1,6 @@
 ---
 name: Mexicana
+thumbnail: /images/breakfast-bagel.jpg
 order: 2
 price: £7.00
 is_vegan: false

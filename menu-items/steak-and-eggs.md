@@ -1,5 +1,6 @@
 ---
 name: Steak and Eggs
+thumbnail: /images/steak-and-eggs.jpg
 order: 6
 price: £12.50
 is_vegan: false

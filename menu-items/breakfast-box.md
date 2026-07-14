@@ -1,5 +1,6 @@
 ---
 name: Breakfast Box
+thumbnail: /images/breakfast-box.png
 order: 1
 price: £11.50
 is_vegan: false

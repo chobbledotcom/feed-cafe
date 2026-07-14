@@ -1,5 +1,6 @@
 ---
 name: Iced Latte
+thumbnail: /images/iced-coffee-and-milkshake.png
 order: 1
 price: £4.20
 is_vegan: false

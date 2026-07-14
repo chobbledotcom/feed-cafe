@@ -1,5 +1,6 @@
 ---
 name: Cheeseburger and Chips
+thumbnail: /images/smash-burger.jpg
 order: 3
 price: £6.50
 is_vegan: false

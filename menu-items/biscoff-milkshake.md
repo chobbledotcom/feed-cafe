@@ -1,5 +1,6 @@
 ---
 name: Biscoff
+thumbnail: /images/iced-coffee-and-milkshake.png
 order: 5
 price: £6.00
 is_vegan: false

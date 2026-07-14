@@ -1,5 +1,6 @@
 ---
 name: Bacon, Brie and Cranberry
+thumbnail: /images/breakfast-bagel.jpg
 order: 4
 price: £7.00
 is_vegan: false

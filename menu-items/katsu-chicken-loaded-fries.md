@@ -1,5 +1,6 @@
 ---
 name: Katsu Chicken Loaded
+thumbnail: /images/crispy-chicken-loaded-fries.jpg
 order: 1
 price: £10.00
 is_vegan: false

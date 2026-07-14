@@ -1,5 +1,6 @@
 ---
 name: Feeder
+thumbnail: /images/breakfast-baps.jpg
 order: 3
 price: £7.00
 is_vegan: false

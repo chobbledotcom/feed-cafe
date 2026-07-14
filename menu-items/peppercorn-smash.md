@@ -1,5 +1,6 @@
 ---
 name: Peppercorn Smash
+thumbnail: /images/smash-burger.jpg
 order: 3
 price: £11.00
 is_vegan: false

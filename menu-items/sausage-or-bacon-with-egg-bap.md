@@ -1,5 +1,6 @@
 ---
 name: Sausage or Bacon with Egg
+thumbnail: /images/breakfast-baps.jpg
 order: 2
 price: £6.00
 is_vegan: false

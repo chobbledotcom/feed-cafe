@@ -1,5 +1,6 @@
 ---
 name: Chocolate
+thumbnail: /images/iced-coffee-and-milkshake.png
 order: 3
 price: £5.00
 is_vegan: false

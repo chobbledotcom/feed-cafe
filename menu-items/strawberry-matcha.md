@@ -1,5 +1,6 @@
 ---
 name: Strawberry Matcha
+thumbnail: /images/strawberry-matcha.png
 order: 4
 price: £5.00
 is_vegan: false

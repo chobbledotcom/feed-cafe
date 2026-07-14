@@ -1,5 +1,6 @@
 ---
 name: Strawberry Split
+thumbnail: /images/red-smoothie.jpg
 order: 1
 price: £4.50
 is_vegan: false
