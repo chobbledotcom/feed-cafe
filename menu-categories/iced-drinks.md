@@ -1,5 +1,5 @@
 ---
-name: Smash Burgers
-order: 4
+name: Iced Drinks
+order: 12
 menus: ["menus/menu.md"]
 ---

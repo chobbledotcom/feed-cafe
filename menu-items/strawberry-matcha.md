@@ -1,9 +1,9 @@
 ---
-name: Iced Latte
-order: 1
-price: £4.20
+name: Strawberry Matcha
+order: 4
+price: £5.00
 is_vegan: false
 is_gluten_free: false
 menu_categories: ["menu-categories/iced-drinks.md"]
-description: Add syrup for £0.80 extra.
+description: ""
 ---

@@ -2,13 +2,13 @@
 name: Menus
 permalink: /menus/
 meta_title: Menus | Feed Cafe & Deli, St Ives
-meta_description: The Feed Cafe & Deli menu, served all day from breakfast through lunch, sweet stuff and drinks.
+meta_description: The Feed Cafe & Deli menu, from breakfast baps and bagels to smash burgers, loaded fries, pancakes and drinks.
 blocks:
   - type: section-header
     intro: |
       # Our Menu
 
-      Everything we serve is on one all-day menu. Breakfast runs until 11.30am, then it is sandwiches, burgers, loaded fries, bowls, kids food, sweet stuff and drinks.
+      Breakfast runs until 11.30am, followed by smash burgers, loaded fries, sandwiches, wraps, kids' meals, pancakes and drinks.
   - type: items
     collection: menus
 ---

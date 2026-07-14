@@ -1,5 +1,5 @@
 ---
 name: Loaded Fries
-order: 4
+order: 5
 menus: ["menus/menu.md"]
 ---

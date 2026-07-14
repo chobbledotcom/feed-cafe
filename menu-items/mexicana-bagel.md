@@ -1,0 +1,9 @@
+---
+name: Mexicana
+order: 2
+price: £7.00
+is_vegan: false
+is_gluten_free: false
+menu_categories: ["menu-categories/bagels.md"]
+description: Guacamole, halloumi, fried eggs and sweet chilli sauce.
+---

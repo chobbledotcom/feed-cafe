@@ -1,5 +1,5 @@
 ---
-name: Smash Burgers
-order: 4
+name: Extras
+order: 8
 menus: ["menus/menu.md"]
 ---

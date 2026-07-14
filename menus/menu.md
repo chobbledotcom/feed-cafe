@@ -2,11 +2,11 @@
 name: All Day Menu
 permalink: /menu/
 order: 1
-subtitle: Breakfast until 11.30am, then sandwiches, burgers, loaded fries, bowls, kids food, sweet stuff and drinks.
+subtitle: Breakfast until 11.30am, then smash burgers, loaded fries, sandwiches, wraps, kids' meals, pancakes and drinks.
 header_image: /images/feed-menu-board.jpg
 thumbnail: /images/feed-breakfast.jpg
 meta_title: Feed Cafe & Deli Menu | St Ives
-meta_description: Feed Cafe & Deli menu with breakfast, sandwiches, smash burgers, loaded fries, power bowls, kids meals, sweet treats, coffee, smoothies and shakes.
+meta_description: Feed Cafe & Deli menu with breakfast, bagels, smash burgers, loaded fries, sandwiches, wraps, kids' meals, pancakes and drinks.
 eleventyNavigation:
   key: Menu
   order: 2
@@ -32,17 +32,13 @@ blocks:
   - type: split-full
     variant: dark-left
     left_content: |
-      ## Ordering Online
+      ## Grab & Go
 
-      *Ordering link, add-to-basket behaviour, collection times and payment flow to confirm.*
-    left_button:
-      text: Ask About Ordering
-      href: /contact/
-      variant: secondary
+      Fresh deli salads and sandwiches are available in our Grab & Go fridge.
     right_content: |
-      ## Before This Goes Live
+      ## Allergens
 
-      *Placeholder: check final prices against the board, add allergen markers and confirm whether breakfast items should be hidden after 11.30am or simply labelled.*
+      Please speak to a member of staff about any allergens before ordering.
     right_button:
       text: Contact Feed
       href: /contact/
@@ -52,7 +48,7 @@ blocks:
     content: |
       ## Questions About The Menu
 
-      If you need to check an item before coming in, send a message and include the dish or drink you are asking about.
+      If you need to check an item or allergen before coming in, send a message and include the dish or drink you are asking about.
     button:
       text: Contact Feed
       href: /contact/
