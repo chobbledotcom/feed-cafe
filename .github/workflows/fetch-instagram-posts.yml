@@ -10,6 +10,7 @@ jobs:
   fetch-posts:
     runs-on: ubicloud-standard-8
     permissions:
+      actions: write
       contents: write
 
     steps:
@@ -44,3 +45,9 @@ jobs:
           git add social-posts/ images/facebook-posts/
           git commit -m "Auto-update: Fetch new Facebook posts"
           git push
+
+      - name: Rebuild site
+        if: steps.verify-changed-files.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run build-and-deploy.yml --ref "$GITHUB_REF_NAME"
